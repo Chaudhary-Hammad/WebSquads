@@ -1,0 +1,40 @@
+.footer-para{
+    font-size: 15px;
+    color: #495057;
+}
+
+.footer-img{
+    width: 50px;
+    height: 50px;
+}
+.g-logo{
+ margin-left: 80px;
+}
+.card1{
+    border: 1px solid rgb(211, 211, 211);
+    background-color: white;
+}
+.top{
+    /* background: linear-gradient(145deg, #e9c76c 0%, #7c7fdd 100%); */
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    /* color: white; */
+    font-size: 41px;
+    /* text-align: center; */
+    /* border-radius: 50%; */
+    /* line-height: 48px; */
+    /* border: 2px solid transparent; */
+    /* text-decoration: none; */
+}
+.top-icon{
+    width: 40px;
+    height: 45px;
+    /* color: white; */
+}
+.footer-nav{
+    text-decoration: dotted !important;
+    color: #495057 !important;
+}

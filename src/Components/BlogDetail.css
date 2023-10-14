@@ -1,0 +1,99 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.blogicon {
+    color: green;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.paragraph {
+    color: red;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.blogbox {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+}
+.blogparagraph {
+    margin: 10px;
+}
+span{
+    color: #007873;
+    cursor: pointer;
+}
+.blogpost{
+    height: 80vh;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.blogtext{
+    margin-left: 1%;
+    color: rgb(57, 56, 56);
+}
+.accordion{
+    position: sticky;
+    border: 1px solid black;
+    margin-left: 10%;
+    width: 100%;
+    top: 25vh;
+    margin-top: 10px;
+    cursor: pointer;
+}
+ul li{
+    list-style: decimal;
+}
+.ul-heading{
+    font-weight: bold;
+    color: green;
+}
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    color: green;
+    font-weight: bold;
+    background-color: white;
+  }
+  .accordionicon {
+    width: 20px;
+    height: 20px;
+    color: black;
+    /* transition: transform 0.3s ease-in-out; */
+  } 
+  .accordion-content {
+    padding: 10px;
+    background-color: white;
+    font-size: 15px;
+  }
+  .accordian-list{
+    list-style:circle;
+    color: black;
+  }
+  .accordian-list:hover{
+    border-bottom: 1px solid green;
+    color: green;
+  }
+
+  @media (max-width: 520px) {
+    .blogpost{
+        height: 40vh;
+    }
+    .accordion{
+        margin-left: 0%;
+    }
+  }
+
+

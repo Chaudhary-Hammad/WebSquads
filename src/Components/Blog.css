@@ -1,0 +1,138 @@
+.Blogcard-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-left: 3%;
+     margin-top: 2%;
+     margin-right: 3%;
+ }
+ 
+ .Blogcard {
+     width: 48%;
+     margin: 1%;
+     padding: 2%;
+     border: 1px solid #ccc;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .Blogcard img {
+     width: 100%;
+     height: auto;
+ }
+ 
+ .Blogcard button {
+     margin-top: 30px;
+ }
+ 
+ .Blogcard h2 {
+     margin-top: 10px;
+     font-size: 1.5rem;
+ }
+ 
+ .Blogcard p {
+     margin-top: 10px;
+ }
+ 
+ .Blogcard-footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 10px;
+ }
+ 
+ .date {
+     display: flex;
+     align-items: center;
+     font-size: 15px;
+     gap: 4px;
+ }
+ 
+ .read-more {
+     color: blue;
+     cursor: pointer;
+     font-size: 15px;
+ }
+ .read-more:hover{
+     text-decoration: underline;
+ }
+ 
+ .Blogcard button {
+     background-color: #00DCDC;
+     border: #00DCDC;
+     border-radius: 5px;
+     padding-right: 10px;
+     width: 120px;
+     height: 40px;
+     text-align: center;
+     border-radius: 3px;
+     color: #007A7B;
+ }
+ .Blogcard h1{
+     font-size: 30px;
+     margin-top: 3%;
+ }
+ .Blogcard p{
+     font-size: 20px;
+     margin-top: 4%;
+ }
+ 
+ /* ... (your other styles) */
+ 
+ .image-container {
+     position: relative;
+     overflow: hidden;
+     transition: transform 0.3s ease, filter 0.3s ease;
+   }
+   
+   .image-container img {
+     width: 100%;
+     height: auto;
+   }
+   .globe{
+     display: none;
+   }
+   .globe:hover{
+     display: block;
+     bottom: 8%;
+     left:6%;
+     font-size: 24px;
+ 
+   }
+   .like-icon,
+   .like-count {
+     position: absolute;
+     bottom: 8%;
+     right: 6%;
+     display: none;
+     transform: translate(50%, 50%);
+     font-size: 24px;
+     border-radius: 50%;
+     padding: 10px;
+     cursor: pointer;
+     color: white;
+     transition: color 0.3s ease;
+   }
+   .like-icon:hover{
+     display: block;
+   }
+   .like-icon.liked,
+   .like-count.liked {
+     color: red;
+   }
+   
+   .image-container:hover {
+     transform: scale(1.05);
+   }
+   
+   .image-container:hover .like-icon,
+   .image-container:hover .like-count {
+     display: block;
+   }
+   
+   
+ 
+ @media (max-width: 520px) {
+     .Blogcard {
+         width: 98%;
+     }
+ }
